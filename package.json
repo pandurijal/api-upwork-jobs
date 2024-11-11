@@ -1,0 +1,18 @@
+{
+    "name": "upwork-jobs-scraper",
+    "version": "1.0.0",
+    "description": "API for scraping Upwork jobs using Puppeteer",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "dependencies": {
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "puppeteer": "^21.5.1"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
